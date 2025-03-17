@@ -1,0 +1,10 @@
+.input_email_home{
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 600px;
+    height: 2rem;
+    border-radius: .5rem;
+    outline: none;
+    background-color: #E7F2F2;
+    border: 1px solid;
+}

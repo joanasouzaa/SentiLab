@@ -1,0 +1,10 @@
+.mensagem_home{
+    padding: 1rem;
+    width: 600px;
+    height: 15rem;
+    border-radius: .5rem;
+    outline: none;
+    margin-top: 2rem;
+    background-color: #E7F2F2;
+    border: 1px solid;
+}

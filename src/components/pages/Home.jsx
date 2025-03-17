@@ -1,6 +1,8 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Navbar from "../layout/Navbar";
 import styles from "../../styles/Home.module.css"
+import Input from "../form/Input";
+import MensageHome from "../form/MensageHome";
 
 export default function Home() {
     return (
@@ -8,13 +10,9 @@ export default function Home() {
             <Navbar />
 
             <section className={styles.container_introducao}>
-                <div className={styles.introduction_title}>
-                    <div>
-                        <h1 className={styles.titulo_introducao}>SentiLab</h1>
+                        <h1 id={styles.titulo_introducao} className={styles.titulo_introducao}>SentiLab</h1>
                         <p className={styles.paragrafo_titulo}>seu laboratório de sentimentos e emoções</p>
-                        <p className={styles.link_login}><Link to="/login">Vamos lá</Link></p>
-                    </div>
-                </div>
+                        {/* <button className={btnIrLogin}>Vamos lá</button> */}
             </section>
             <section id="sobre_nos" className={styles.sobre}>
                 <h2 className={styles.titulo_sobre_nos}>Sobre nós</h2>
@@ -25,8 +23,16 @@ export default function Home() {
                 <p className={styles.paragrafo_contato}>Tem alguma dúvida? Nós adorariamos de ouvir!</p>
                 <form action="" className={styles.formulario_home}>
                     <div className={styles.form_home}>
-                        <input type="email" name="" id="" placeholder="Seu e-mail" className={styles.input_email_home} />
-                        <textarea name="" id="" placeholder="Escreva uma mensagem" className={styles.mensagem_home}></textarea>
+                        <Input
+                        type='email'
+                        name='email'
+                        placeholer='Informe seu melhor e-mail'
+                        />
+                        <MensageHome
+                        name='mensage'
+                        placeholer='Escreva sua mensagem aqui'
+                        />
+                        <button className={styles.btnEnviar}>Enviar</button>
                     </div>
                 </form>
             </section>

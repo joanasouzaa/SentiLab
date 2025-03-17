@@ -3,7 +3,7 @@ import NavbarTwo from "../layout/NavBarTwo";
 import styles from '../../styles/PageLogin.module.css'
 import Container from "../layout/Container";
 
-export default function PageLoginDefault() {
+export default function PageLogin() {
     return (
         <>
     <NavbarTwo/>

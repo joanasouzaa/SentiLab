@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+.title_center {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.form_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form_login input {
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 5px;
+    height: 50px;
+    width: 600px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.btn_space_between{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3rem;
+    text-align: center;
+}
+
+.btn_space_between li{
+    height: 50px;
+    width: 235px;
+    border-radius: 5px;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_space_between a{
+    text-decoration: none;
+}
+
+.entrarBtn{
+    background-color: #314855;
+}
+
+.entrarBtn a{
+    color: #fff;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.cadastrarBtn{
+    background-color: #fff;
+}
+
+.cadastrarBtn a{
+    color: #000;
+    font-weight: 700;
+}
+
+.esqueciSenha{
+    text-align: center;
+    font-weight: 600;
+}
