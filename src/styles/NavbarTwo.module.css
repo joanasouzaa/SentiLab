@@ -1,0 +1,11 @@
+.navbar_two {
+    background-color: #fff;
+    padding: 0.5em;
+    border-bottom: 2px solid #ccc;
+}
+
+.logo_sentilab_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

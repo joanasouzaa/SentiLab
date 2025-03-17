@@ -1,0 +1,49 @@
+
+.container_introducao, .contato{
+    position: relative;
+    background-color: #E7F2F2;
+    min-height: 700px;
+    min-width: 100px;
+}
+
+.introduction_title{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 20%;
+    left: 40%;
+    margin: -30px 15 15 -30px;
+}
+
+.link_login{
+    background-color: #98E4DF;
+    padding: 15px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.introduction_title h1{
+    font-size: 5rem;
+    color: #314855;
+    font-weight: 500;
+}
+
+.paragrafo_titulo{
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.sobre{
+    background-color: #fff;
+    min-height: 750px;
+    min-width: 100px
+}
+
+/* .contato{
+    background-color:#E7F2F2;
+} */
