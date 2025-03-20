@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import NavbarTwo from "../layout/NavBarTwo";
-import styles from '../../styles/PageLogin.module.css'
+import styles from '../../styles/pages/PageLogin.module.css'
 import Container from "../layout/Container";
 
 export default function PageLogin() {

@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import NavbarTwo from "../layout/NavBarTwo";
-import styles from '../../styles/LoginProfessor.module.css'
+import styles from '../../styles/pages/LoginProfessor.module.css'
 
 export default function LoginProfessor() {
     return (
         <>
             <NavbarTwo />
-            <main>
+            <main className={styles.container_main}>
 
                 <div className={styles.title_center}>
                     <h2>Login Professor</h2>
@@ -26,7 +26,7 @@ export default function LoginProfessor() {
 
                 <div >
                     <ul className={styles.btn_space_between}>
-                        <li className={styles.entrarBtn}><Link to="/">Entrar</Link></li>
+                        <li className={styles.entrarBtn}><Link to="/perfil_pofessor">Entrar</Link></li>
                         <li className={styles.cadastrarBtn}><Link to="/cadastrar">Cadastrar</Link></li>
                     </ul>
                 </div>
